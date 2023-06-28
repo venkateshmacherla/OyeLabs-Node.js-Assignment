@@ -33,6 +33,8 @@ mappingId customerId subjectId
 5 3 3
 
 6 3 1
+
+
 3. Write a function in node that inserts the following data in mysql , the email should
 be unique and if the email already exists in the system then the name of the customer
 will be updated with the new name that is there in the array for that customer.
@@ -66,6 +68,8 @@ customerId name email
 1 santosh santosh11@yopmail.com
 2 ravi ravi11@yopmail.com
 
+
+
 4. Create a new object which have all the properties of object person and student
 const person = {
 id : 2 ,
@@ -76,6 +80,8 @@ const student = {
 name : "ravi" ,
 email :"ravi11@yopmail.com"
 };
+
+
 5. Make a promisifed function for the functioan having callback below , after the
 function is promisifed then call the function like you call a promise
 
@@ -93,5 +99,7 @@ finalCallBack(null,body);
 console.log(getGoogleHomePage((result)=>{
 console.log("RESULT==>",result);
 }));
+
+
 6. Imagine you have array of integer from 1 to 100 , the numbers are randomly ordered
 , one number from 1 to 100 is missing , Please write the code for finding the missing number
